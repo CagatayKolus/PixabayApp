@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/drawable/gradient_background_top.xml" value="0.19814814814814816" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/drawable/ic_avatar.xml" value="0.19814814814814816" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/drawable/ic_broken_image.xml" value="0.19814814814814816" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/drawable/ic_comment.xml" value="0.19814814814814816" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/drawable/ic_download.xml" value="0.19814814814814816" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/drawable/ic_like.xml" value="0.19814814814814816" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/drawable/ic_placeholder.xml" value="0.19814814814814816" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/drawable/ic_search.xml" value="0.20277777777777778" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/drawable/pattern.xml" value="0.20092592592592592" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/drawable/shape_border.xml" value="0.19692307692307692" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/drawable/shape_rounded_bottom_sheet_dialog.xml" value="0.20092592592592592" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/layout-land/fragment_detail.xml" value="0.31040564373897706" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/layout/activity_main.xml" value="0.36096014492753625" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/layout/appbar.xml" value="0.5" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/layout/bottom_sheet_dialog_navigation.xml" value="0.36594202898550726" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/layout/fragment_detail.xml" value="0.33" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/layout/item_photo.xml" value="0.25" />
+        <entry key="..\:/Android/Projects/Personal/PixabayApp/app/src/main/res/menu/menu.xml" value="0.20729166666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

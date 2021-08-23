@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageview_detail_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_detail_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[1]" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_detail_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/gradient_background_bottom"
+        app:layout_constraintBottom_toBottomOf="@+id/imageview_detail_photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageview_detail_background"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:alpha="0.15"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_detail_1"
+        app:srcCompat="@drawable/image_pattern" />
+
+    <ImageView
+        android:id="@+id/imageview_detail_like"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageview_detail_comment"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_detail_1"
+        app:srcCompat="@drawable/ic_like" />
+
+    <ImageView
+        android:id="@+id/imageview_detail_comment"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageview_detail_download"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageview_detail_like"
+        app:layout_constraintTop_toTopOf="@+id/imageview_detail_like"
+        app:srcCompat="@drawable/ic_comment" />
+
+    <ImageView
+        android:id="@+id/imageview_detail_download"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageview_detail_comment"
+        app:layout_constraintTop_toTopOf="@+id/imageview_detail_like"
+        app:srcCompat="@drawable/ic_download" />
+
+    <TextView
+        android:id="@+id/textview_detail_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/black80"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageview_detail_like"
+        app:layout_constraintStart_toStartOf="@+id/imageview_detail_like"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_detail_like"
+        tools:text="105" />
+
+    <TextView
+        android:id="@+id/textview_detail_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/black80"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageview_detail_comment"
+        app:layout_constraintStart_toStartOf="@+id/imageview_detail_comment"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_detail_comment"
+        tools:text="22" />
+
+    <TextView
+        android:id="@+id/textview_detail_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/black80"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageview_detail_download"
+        app:layout_constraintStart_toStartOf="@+id/imageview_detail_download"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_detail_download"
+        tools:text="3714" />
+
+    <TextView
+        android:id="@+id/textview_detail_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageview_detail_avatar"
+        app:layout_constraintStart_toEndOf="@+id/imageview_detail_avatar"
+        app:layout_constraintTop_toTopOf="@+id/imageview_detail_avatar"
+        tools:text="CagatayKolus" />
+
+    <ImageView
+        android:id="@+id/imageview_detail_avatar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textview_detail_tags"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <TextView
+        android:id="@+id/textview_detail_tags"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_detail_1"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Nature, forest, sky" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
